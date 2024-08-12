@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SugarScan Diabetes Prediction</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/healthtools.css') }}">
+  <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}"> -->
+  <link rel="stylesheet" type="text/css"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <div class="logo">
+        <a href="/"><img src="static\image\logo.png" width="80"></a>
+      </div>
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="/">Home</a>
+        <a class="nav-link" href="/AboutMe">About Me</a>
+        <a class="nav-link" href="/ContactUs">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- <img src="./static/image/m.png" width="100" height="100"/> -->
+  <center><h2 style="margin-top: 25px; font-family:'Times New Roman', Times, serif ; font-style: oblique;">Health Tools</h2></center>
+
+
+  <div class="imgData" style="display: flex; margin-top: 100px; align-items: center; margin-left: 80px; margin-bottom: 150px">
+
+    <div class="data" style="display: flex; margin-right: 140px;">
+      
+    <a href="https://www.amazon.in/s?k=glucometer&crid=2RDWTHM1GF8V5&sprefix=glucometer%2Caps%2C185&ref=nb_sb_noss_1"><img src="static\image\gluco.jpeg" style="height: 220px; width: 220px; margin-right: 20px"/></a>
+
+    <div style="height: 100px; width: 300px;">
+        <h3>Glucometer </h3>
+        <p>Glucometer adalah alat medis portabel yang digunakan untuk mengukur kadar glukosa dalam darah, terutama oleh individu dengan diabetes. Prosesnya melibatkan pengambilan sampel darah dengan lancet, penempatan pada strip pengukur, dan pembacaan hasil oleh glucometer. Alat ini memungkinkan pemantauan rutin gula darah untuk manajemen diabetes yang lebih efektif.</p>
+      </div>
+    </div>
+
+    <div class="data" style="display: flex;">
+    <a href="https://www.amazon.in/Apex-Digital-Syringe-Pump-Secure/dp/B07RC7N32H/ref=sr_1_6?crid=161TGI4EQVEAC&keywords=insulin+pump&qid=1697489639&sprefix=insulin+pump%2Caps%2C175&sr=8-6"><img src="static\image\insulin.jpeg" style="height: 220px; width: 220px; margin-right: 20px"/></a>
+      <div style="height: 100px; width: 300px;">
+        <h3>Insulin pump  </h3>
+        <p>
+          Insulin pump adalah perangkat medis yang memberikan insulin ke tubuh secara otomatis melalui selang dan kateter di bawah kulit. Ini menggantikan suntikan insulin konvensional dan memungkinkan pengguna untuk mengatur dosis dengan fleksibilitas. Insulin pump membantu pengendalian gula darah, mengurangi jumlah suntikan harian, dan memberikan kenyamanan serta diskresi. Meskipun memiliki manfaat, penggunaan insulin pump memerlukan pelatihan dan pengawasan profesional kesehatan.
+          </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="imgData" style="display: flex; margin-top: 100px; align-items: center; margin-left: 80px; margin-bottom: 150px">
+
+    <div class="data" style="display: flex; margin-right: 140px;">
+    <a href="https://www.amazon.in/s?k=Ketone+test+strips&crid=3NUFSGAZB9R4V&sprefix=ketone+test+strips%2Caps%2C176&ref=nb_sb_noss_1"><img src="static\image\ketone.jpeg" style="height: 220px; width: 220px; margin-right: 20px"/></a>
+      <div style="height: 100px; width: 300px">
+        <h3>Ketone test strips </h3>
+        <p>Ketone test strips "Pita uji keton" adalah strip kecil yang digunakan untuk mengukur kadar keton dalam urin. Umumnya digunakan oleh individu dengan diabetes untuk memantau ketosis, pita ini memberikan informasi tambahan tentang keseimbangan gula darah dan manajemen kondisi.</p>
+      </div>
+    </div>
+
+    <div class="data" style="display: flex;">
+    <a href="https://www.amazon.in/s?k=Blood+Pressure+Monitor&crid=3COPRHJMGKLGU&sprefix=blood+pressure+monitor%2Caps%2C181&ref=nb_sb_noss_1"><img src="static\image\blood.jpeg" style="height: 220px; width: 220px; margin-right: 20px"/></a>
+      <div style="height: 100px; width: 300px;">
+        <h4>Blood Pressure Monitor</h4>
+        <p>Blood pressure monitor adalah alat medis untuk mengukur tekanan darah seseorang. Biasanya terdiri dari manset, monitor, dan pompa. Pengukuran menghasilkan dua nilai, tekanan sistolik (saat jantung berkontraksi) dan diastolik (saat jantung beristirahat), dinyatakan dalam mmHg. Alat ini membantu memantau kesehatan kardiovaskular dan mendeteksi masalah seperti hipertensi atau hipotensi. Pemantauan tekanan darah secara teratur penting untuk manajemen kesehatan pribadi.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer_logo pages">
+      <a href="#"><img src="static\image\logo.png" width="80 "></a>
+      <a href="/AboutMe">About Me</a>|
+      <a href="/ContactUs">Contact</a>|
+    </div>
+
+    <div class="social">
+      <h3>Follow Us</h3>
+      <a href="https://www.pnp.ac.id/" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i></a>
+      <a href="https://github.com/hillaraisfalana" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+      <a href="https://instagram.com/hillaraisfalana" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+      <a href="http://linkedin.com/in/hillara-isfalana-june-269b672b9" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    </div>
+
+  </footer>
